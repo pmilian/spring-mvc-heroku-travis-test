@@ -41,3 +41,8 @@ task wrapper(type: Wrapper) {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+// needed for heroku
+task stage {
+    dependsOn build
+}
