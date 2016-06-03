@@ -1,10 +1,10 @@
 language: java
-
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 deploy:
   provider: heroku
   api_key:
-    secure: "YOUR ENCRYPTED API KEY"
-  app: 
+    secure: Zul/D6mC7lhS4l/dd73HkB4F0aSh70Q099LViipr8SSHcxAc87TI2tWVukdjSLFRrFOXjZzDHo37oBt4lxCEjVoNRxSsZkbMNXdOo/42l13i4rqxzwxvlKOIG+hA3XVz/W9I1Fd5jIH6huol7AkR+GTvIUV8cu7iPScDa++Jr2IQ/RCxNmNmgUf9BjqPgPZrRqnkkH8loquuAU6oVoxcjb1AEQZmSDOg4uU3RaNCmz+Wn1B3uIpI2edMDPDUq5AbDGGB9vcjNfKfKpR1+5SYLES6GVQznXWYEagjrQi6N4oz29hmJHUTuNdx597nFjZt6QtW3wyMgvbGCl3zoJsmbD/3g6NOuhdxW30R8Vg7FnvK4cEdLJFe8Mbh7fH+LUtna68WkPZ7TtHehgPLbN1MmRFOeDLhqpws/5U6iAE5PYvQlbg8Q/8ZbJh9+PhlHiSqbCglDlpWnDPKsLWfd22b70dPHuRXYdsizgUGpar583x2bfJNTPrwFNN+C9vvP6E7aJZYI5qn8aHpXJyMZYm3Yv65lRS8b4JGoTkJWBlm//H77OYg1KERuCEm1kx/d9KaL6FU20MbTGaRN1W4RgISn02wj9/586y5BxQW6+hmh5spqf0jQkdm/GJZqiQvBQF7Ks+evadW3u9C2O2aeu/1exP7cARSVdYJtqrwmfcnL3g=
+  app: spring-mvc-heroku-travis-test
+  on:
+    repo: pmilian/spring-mvc-heroku-travis-test
